@@ -9,8 +9,12 @@ In order to convert between cases you need to provide case string and use needed
 var snakeCase = "user_account_id";
 
 var camelCase = snakeCase.ToCamelCase();
-        
+// Output - "userAccountId"
+
 var kebabCase = snakeCase.ToKebabCase();
-        
+// Output - "user-account-id"
+
 var pascalCase = snakeCase.ToPascalCase();
+// Output - "UserAccountId"
 ```
+
