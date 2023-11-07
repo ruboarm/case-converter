@@ -1,5 +1,9 @@
 # Ruboarm Case Converter
-Convert between cases
+Convert between possible 4 cases:
+1. Snake Case
+2. Pascal Case
+3. Kebab Case
+4. Camel Case
 
 The conversion is simple and works with extension methods. <br>
 In order to convert between cases you need to provide case string and use needed conversion type to convert into it.
