@@ -14,6 +14,7 @@
         <PackageIcon>ruboarm_logo.png</PackageIcon>
         <RepositoryUrl>https://github.com/ruboarm/case-converter</RepositoryUrl>
         <PackageTags>converte, lib</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -23,6 +24,13 @@
         <Content Include="..\.gitignore">
             <Link>.gitignore</Link>
         </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
     </ItemGroup>
 
     <ItemGroup>
